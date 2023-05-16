@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "I am on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2586252000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should see six products are displayed on homepage",
+        "description": "",
+        "id": "login-page-test;user-should-see-six-products-are-displayed-on-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 644161100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 219833100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter email id in email field",
+            "match": {
+              "location": "LoginPageSteps.iEnterEmailIdInEmailField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84161100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password in password field",
+            "match": {
+              "location": "LoginPageSteps.iEnterPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95029900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43532000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see six products are displayed on home page",
+            "match": {
+              "location": "LoginPageSteps.iShouldSeeSixProductsAreDisplayedOnHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          },
+          {
+            "line": 10,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature"
+  }
+]
